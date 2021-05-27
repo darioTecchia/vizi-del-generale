@@ -23,13 +23,16 @@ export default {
 
 <style>
 @font-face {
-  font-family: 'AvantGarde';
-  src: url(../assets/fonts/AvantGarde.otf);
-}
-
-@font-face {
-  font-family: 'Diodrum';
-  src: url(../assets/fonts/Diodrum.otf);
+  font-family: 'EB Garamond';
+  src: url('../assets/fonts/EBGaramond-Regular.eot');
+  src: url('../assets/fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/EBGaramond-Regular.woff2') format('woff2'),
+      url('../assets/fonts/EBGaramond-Regular.woff') format('woff'),
+      url('../assets/fonts/EBGaramond-Regular.ttf') format('truetype'),
+      url('../assets/fonts/EBGaramond-Regular.svg#EBGaramond-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -48,9 +51,9 @@ a:visited {
 }
 
 body {
-  font-family: AvantGarde;
+  font-family: 'EB Garamond';
   margin: 0px;
-  background: white !important;
+  background: #f1f1f1 !important;
 }
 
 .upper-case {
